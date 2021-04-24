@@ -25,11 +25,14 @@ function render(st = state.Home) {
 `;
 
   router.updatePageLinks();
+  myEventListener();
 }
+function myEventListener() {
+  const menuToggle = document.querySelector(".toggle");
+  const showcase = document.querySelector(".showcase");
 
-// add menu toggle to bars icon in nav bar
-document
-  .querySelector(".fa-bars")
-  .addEventListener("click", () =>
-    document.querySelector("nav > ul").classList.toggle("hidden--mobile")
-  );
+  menuToggle.addEventListener("click", () => {
+    menuToggle.classList.toggle("active");
+    showcase.classList.toggle("active");
+  });
+}

@@ -1,9 +1,5 @@
 export default () => `
 <footer>
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
-  <a href="#"><i class="fa fa-pinterest-p"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-flickr"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
+        <p>BLOG | CONTACT US | EMAIL: inventMap@gmail.com | SHOP NOW |  &copy; 2021 <a href="https://inventmap.netlify.app/">InventMap</a> </p>
 </footer>
 `;
